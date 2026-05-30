@@ -14,7 +14,7 @@ questions = load_data()
 st.sidebar.header("🎯 Test Configuration")
 
 # Get unique file sources
-sources = list(set([q['source'] for q in questions]))
+sources = list(set([q.get('source', 'Unknown') for q in questions]))
 selected_sources = st.sidebar.multiselect("Select Files to Include:", sources, default=sources)
 
 # Filter questions by selected files
