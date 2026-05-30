@@ -17,8 +17,8 @@ st.sidebar.header("🎯 Test Configuration")
 sources = list(set([q.get('source', 'Unknown') for q in questions]))
 selected_sources = st.sidebar.multiselect("Select Files to Include:", sources, default=sources)
 
-# Filter questions by selected files
-filtered_questions = [q for q in questions if q['source'] in selected_sources]
+# Filter questions by selected files - ADDED .get() HERE
+filtered_questions = [q for q in questions if q.get('source', 'Unknown') in selected_sources] 
 
 # Select Number of Questions
 max_q = len(filtered_questions)
