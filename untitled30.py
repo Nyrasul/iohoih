@@ -2,9 +2,6 @@ import streamlit as st
 import json
 import random
 
-# Page Config
-st.set_page_config(page_title="MedQuiz Master", layout="centered")
-
 # Load Data
 @st.cache_data
 def load_data():
@@ -13,61 +10,54 @@ def load_data():
 
 questions = load_data()
 
-# Initialize Session State
-if 'shuffled_questions' not in st.session_state:
-    st.session_state.shuffled_questions = questions.copy()
-    random.shuffle(st.session_state.shuffled_questions)
+# --- SIDEBAR: Filter Controls ---
+st.sidebar.header("🎯 Test Configuration")
 
-if 'current_q' not in st.session_state: st.session_state.current_q = 0
-if 'user_answers' not in st.session_state: st.session_state.user_answers = {}
-if 'bookmarked' not in st.session_state: st.session_state.bookmarked = set()
+# Get unique file sources
+sources = list(set([q['source'] for q in questions]))
+selected_sources = st.sidebar.multiselect("Select Files to Include:", sources, default=sources)
 
-# --- Sidebar Controls ---
-st.sidebar.header("⚙️ Settings")
-if st.sidebar.button("🔄 Shuffle Questions"):
-    random.shuffle(st.session_state.shuffled_questions)
+# Filter questions by selected files
+filtered_questions = [q for q in questions if q['source'] in selected_sources]
+
+# Select Number of Questions
+max_q = len(filtered_questions)
+num_q = st.sidebar.slider("Number of Questions:", 5, max_q, min(20, max_q))
+
+if st.sidebar.button("🚀 Start New Test"):
+    st.session_state.quiz_data = random.sample(filtered_questions, num_q)
     st.session_state.current_q = 0
+    st.session_state.user_answers = {}
     st.rerun()
 
-st.sidebar.markdown("---")
-st.sidebar.write("### Bookmarked Questions")
-for b in st.session_state.bookmarked:
-    st.sidebar.write(f"Q: {b}")
+# --- MAIN APP ---
+if 'quiz_data' not in st.session_state:
+    st.title("⚕️ Medical Prep Quiz")
+    st.info("Configure your test in the sidebar and click 'Start New Test'.")
+else:
+    q_data = st.session_state.quiz_data[st.session_state.current_q]
+    
+    st.subheader(f"Question {st.session_state.current_q + 1} / {len(st.session_state.quiz_data)}")
+    st.write(q_data['question'])
+    
+    if q_data.get("images"):
+        for img in q_data["images"]: st.image(img, use_container_width=True)
 
-# --- Quiz Logic ---
-q_data = st.session_state.shuffled_questions[st.session_state.current_q]
+    # Radio selection
+    ans = st.radio("Choose:", q_data['options'], key=f"q_{st.session_state.current_q}")
+    st.session_state.user_answers[st.session_state.current_q] = ans
 
-st.title("⚕️ Medical Prep Quiz")
-st.progress((st.session_state.current_q + 1) / len(st.session_state.shuffled_questions))
+    # Navigation
+    c1, c2 = st.columns(2)
+    if c1.button("⬅️ Previous") and st.session_state.current_q > 0:
+        st.session_state.current_q -= 1; st.rerun()
+    if c2.button("Next ➡️") and st.session_state.current_q < len(st.session_state.quiz_data) - 1:
+        st.session_state.current_q += 1; st.rerun()
 
-# Question Display
-st.subheader(f"Q{st.session_state.current_q + 1}: {q_data['question']}")
-
-# Display Images if they exist
-if q_data.get("images"):
-    for img in q_data["images"]:
-        st.image(img, use_container_width=True)
-
-# Answer Handling
-key = f"q_{st.session_state.current_q}"
-selected = st.radio("Select answer:", q_data["options"], key=key)
-
-# Comfort Buttons
-c1, c2, c3 = st.columns(3)
-with c1:
-    if st.button("Previous"):
-        if st.session_state.current_q > 0: st.session_state.current_q -= 1; st.rerun()
-with c2:
-    if st.button("🔖 Bookmark"):
-        st.session_state.bookmarked.add(q_data['question'])
-with c3:
-    if st.button("Next"):
-        if st.session_state.current_q < len(st.session_state.shuffled_questions) - 1:
-            st.session_state.current_q += 1; st.rerun()
-
-# Immediate Feedback (Comfort feature: toggleable)
-if st.checkbox("Show Correct Answer Immediately"):
-    if selected == q_data["correct_answer"]:
-        st.success("Correct!")
-    else:
-        st.error(f"Try again! Correct was: {q_data['correct_answer']}")
+    # Submit
+    if st.session_state.current_q == len(st.session_state.quiz_data) - 1:
+        if st.button("Submit Test"):
+            # Calculate Score
+            score = sum(1 for i, q in enumerate(st.session_state.quiz_data) 
+                        if st.session_state.user_answers.get(i) == q['correct_answer'])
+            st.metric("Final Score", f"{score} / {len(st.session_state.quiz_data)}")
