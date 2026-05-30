@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyTestX>
+	<Version Editor="Text1ToXML">11.0</Version>
+	<SaveDate>2025-05-18T16:49:11Z</SaveDate>
+	<TestOptions/>
+	<Groups>
+		<Group>
+			<Title>Импорт из текстового файла</Title>
+			<Tasks>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Медицинада ... өсімдігінің шикізаты қолданылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Aloe arborescens</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Aloe pallasii</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Aloe fricuspidala</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Aloe excelsior</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Aloe jujuba</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Бүтін немесе көлденең кесілген тамырлары, қатты, көлденең әжімделген, тік немесе аздап майысқан, қалыңдығы 2-5 см, ұзындығы 3-10 см. Сыртынан түсі қоңыр, сынығынан сарғыш-қоңыр немесе сұр-қоңыр түсті. Сынығы қисық. Иісі әлсіз, өзіне тән; дәмі ащы, бырыстырғыш. Бұл сипатталған шикізат:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>жылқы қымыздық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бояулық риян</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>үшкір жапырақты сана</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>танғұт рауғашы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>сыңғақ итшомырт</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>МФ XI басылымы бойынша сана жапырақтарындағы антрацентуындыларының сандық анықтауында ... әдіс қолданылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>спектрофотометриялық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>гравиметриялық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>фотоэлектроколориметриялық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>перманганатометриялық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>қышқылдық-негіздік титрлеу</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Ұзындығы әртүрлі, қалыңдығы 2-18 мм, тоз қабаттары бар тамырсабақтары мен тамырларының бөліктері. Түсі сыртынан қарағанда қызғылт-қоңырқай, ал қабық сынығының түсі қоңыр-қызғылт, ал сүрегі қызғылт сарғыш-қызыл, тамырсабағының ортасында қуысы бар. Бұл сипатталған шикізат:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>бояулық риян</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жылқы қымыздық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>таңғұт рауғашы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ішдәрі  қаражеміс</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>сыңғақ итшомырт</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Сүйектері домалақ, үстіңгі беті жалтыр, әжімді, шеңбері 5-8 мм, аздаған дің қалдықтары, кейде жеміс сағақтары, жеміс жұмсағы бурыл түсті 3-4 (кейде 2). Бурыл сүйекшелері үшқырлы немесе жұмыртқа формалы. Түсі қара түсті, иісі әлсіз, сүйкімсіз; дәмі тәтті-ашқылтым. Бұл сипатталған шикізат:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>ішдәрі қаражеміс</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жылқы қымыздық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бояулық риян</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>таңғут рауғашы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>сыңғақ итшомырт</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Сана жапырақтарын дайындауда:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>гүлдеу мен жеміс беру кезеңінде өсімдіктің төбе жағын орып алады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>гүлдеу кезеңінде жапырақтарын қолмен жұлып алады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>гүлдеп болғаннан соң жапырақтарын  қолмен жұлып алады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>гүлдеу кезеңіне дейін өсімдіктің төбе жағын орып алады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жеміс беру кезеңінде өсімдіктің төбе жағын орып алады</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Итшомырт қабығының қолданылуы:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>іш жүргізетін</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>өт айдайтын</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>қабынуға қарсы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>несеп айдайтын</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жараны жазатын</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Сана жапырақтарын ... препаратын алу үшін қолданады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>«Кафиол»</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>«Цистенал»</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>«Солутан»</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>«Рамнил»</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>сұйық экстракт</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Халық медицинасында Алоэның биостимулданған шикізатын  қолданады:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>жараны жазатын</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бырыстырғыш</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>несеп айдайтын</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>нефролитикалық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>седативті</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Цистенал препаратының құрамына ... кіреді.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>риянның тамырсабақтары мен тамырларының тұндырмасы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ішдәрі қаражемістің  жемістерінің экстрактысы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>алоэ шырыны</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>рауғаштың құрғақ экстрактысы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>итшомырттың сұйық  экстрактысы</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Винбластин және Розевин препараттары алынатын өсімдік шикізаты:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>қызғылт катарантус</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>кіші қабіршөп</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>инкарнатты пассифлора</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>қырықбуын қылша</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жылан раувольфиясы</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Жылқы қымыздықтың тіршілік формасы:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>көпжылдық шөптесін өсімдік</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бұта</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>шырмауық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ағаш</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>біржылдық  шөптесін өсімдік</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Күрделі жұп қауырсынды жапырақтың жеке жапырақшалары мен сағақтары, бүтін немесе аздап сынықтары бар, аздаған мөлшерде жұқа шөптесін сабақтары мен гүлдері бар; жапырақтарының ұзындығы 1-3 см, ені 0,5-1 см, қияқты, жоғары ұштары үшкір, шеттері тегіс, өте қысқа сағақты; гүлдері сұрғылт немесе сары-жысыл түсті. Бұл сипатталған шикізат:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>үшкір жапырақты сана</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жылқы қымыздық</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бояулық риян</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>танғұт рауғашы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>сыңғақ итшомырт</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Сана жапырақтарын ... мөлшері бойынша стандарттайды.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>хризофан қышқылына шаққандағы антрацен қатарының агликондар жиынтығының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>70% спиртпен сірінділетін  экстрактивті заттардың</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>сеннозидтер жиынтығының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>А сеннозид</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>антрацен қатарының гликозидтер жиынтығының</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Меруертгүлдің жапырақтарын дайындайтын түрі:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>тек жабайы өсетін</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>тек мәдени өсетін</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жабайы және мәдени өсетін</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Рессейде дайындамайды</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Қазақстанда дайындамайды</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Түктігүлді оймақгүлдің жапырақтарын дайындайтын түрі:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>тек мәдени өсетін</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>тек жабайы өсетін</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жабайы және мәдени өсетін</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Рессейде дайындамайды</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Қазақстанда дайындамайды</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Биік аралия өсімдігінің негізгі әсер ететін заттары ... болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>β-амирин тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>фитоэкдизондар</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>стероидты сапониндер</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>даммаран тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>α-амирин тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Көгілдір көкшегүл өсімдігінің негізгі әсер ететін заттары ... болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>β-амирин тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>фитоэкдизондар</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>стероидты сапониндер</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>даммаран тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>α-амирин тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Жалаң мия өсімдігінің негізгі әсер ететін заттары ... болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>β-амирин тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>фитоэкдизондар</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>стероидты сапониндер</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>даммаран тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>α-амирин тобының тритерпенді сапониндері</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Көгілдір көкшегүлдің өсетін жерлері:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>орман шеттері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ормандар бойы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>батпақтар</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>егіндерде арамшөп ретінде</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>құрғақ шалғындарда</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Аралия тамырларын дайындау кезеңі:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>күзде, күрекпен 1-3 см қалыңдықта тамырларын қазып алады. Қазып алынған тамырларын топырақ пен басқа да қоспалардан тазартады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жыл бойына жер үсті бөліктерін кесіп алып жинайды. Тамырын соқамен немесе қолмен жинайды, топырақтан тазартып және қоспаларынан тазартып, кептіреді</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>күзде, жер үсті бөліктерін кесіп алып, оларды қоспалардан тазартып, кептіреді</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>күзде немесе ерте көктемде. Жер үсті бөліктерін кесіп алып, оларды қоспалардан тазартып және ұқыптап жуады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жыл бойына жер үсті бөліктерін кесіп алып жинайды. Жер үсті бөліктерін кесіп алып, оларды қоспалардан тазартып және ұқыптап жуады</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Мия тамырларын дайындау кезеңі:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>жыл бойына жер үсті бөліктерін кесіп алып жинайды. Тамырын соқамен немесе қолмен жинайды, топырақтан тазартып және қоспаларынан тазартып, кептіреді</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>күзде және ерте көктемде. Жер үсті бөліктерін кесіп алып, оларды қоспалардан тазартып және ұқыптап жуады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>күзде, күрекпен 1-3 см қалыңдықта тамырларын қазып алады. Қазып алынған тамырларын топырақ пен басқа да қоспалардан тазартады</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>күзде, жер үсті бөліктерін кесіп алып, оларды қоспалардан тазартып, кептіреді</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жыл бойына жер үсті бөліктерін кесіп алып жинайды. Жер үсті бөліктерін кесіп алып, оларды қоспалардан тазартып және ұқыптап жуады</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Тамырларының кесінділерінің ұзындығы 2-15 см, жуандығы 0,3-3 см, жәй немесе аз тармақталған, көлдеңінен әжімделген, кейде спираль тәрізді бұралып орналасқан, тығыз. Тамырының ортасындағы шамалы сары немесе сарғыш-бурыл түсті сүректі, қоршап тұрған кең сары-ақшыл түсті қабығында лупа арқылы концентрлі жұқа сүттігендерді байқауға болады. Бұл сипатталған шикізат:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>бақ-бақ</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>аңдыз</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>шүйгіншөп</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>иір</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>қазтабан</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте формуласы келтірілген  қосылыс ... кездеседі.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>үшжапырақты субеде жапырақтарында</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>иірдің тамырсабақтарында</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>мыңжапырақ шөбінде</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бақ-бақ тамырларында</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жусан шөбінде</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... жапырағының анатомиялық құрылысы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>ащы жусан</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>үшжапырақты субеде</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>кәдімгі мыңжапырақ</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бұрыш жалбыз</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>кәдімгі иір</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... формуласы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>дигитоксиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигоксиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>А пурпуреагликозидтің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>А ланатозидтің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигитоксигениннің</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген карденолидтерге жатады қосылыс:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>[images/image_4.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_5.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_6.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_7.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_8.png]</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... формуласы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>бергаптеннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>кумариннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>келлиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>псораленнің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ксантотоксиннің</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген формула ...  болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>реин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>глюкофрангулин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>франгулаэмодин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>алоэ-эмодин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ализарин</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген формула ...  болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>хризофанолом</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>глюкофрангулином</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>франгуларозидом</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>франгула-эмодином</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>алоэ-эмодином</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген формула ... болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>руберитрин қышқылы</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>глюкофрангулин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>франгула-эмодин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>алоэ-эмодин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>реин</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте  көрсетілген қосылыс .... өсімдігінің  эфир майында  кездеседі.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>шүйгіншөптің тамырсабақтары тамырларымен</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>түймедақ гүлдері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>зере жемістері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>феникулум жемістері</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бұрыш жапырақтары</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте .... тамырының анатомиялық құрылысы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>шүйгіншөп</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>андыз</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бақ-бақ</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>иір</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>түймедақ</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген формула ... болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>логанин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ахиллин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>сверозид</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>араксацин</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бореол</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... шикізатының анатомиялық құрылысы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>бақ-бақ</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>андыз</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>шүйгіншөп</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>иір</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>түймедақ</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Дигиталис   топшасының  жүрек гликозидтерінің қосылысы:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>[images/image_14.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_15.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_16.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_4.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_5.png]</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген  буфадиенолидтерге  жататын қосылыс:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>[images/image_5.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_6.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_17.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_15.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_18.png]</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте  көрсетілген қосылыс ... формуласы болып табылады.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>строфанта топшасының  карденолидтерінің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>үштерпенді гликозидтердің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>буфадиенолидтердің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>стероидты сапониндердің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигиталис топшасының  карденолидтерінің</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... формуласы  берілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>А ланатозидтің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигоксиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>А пурпуреогликозидтің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигоксиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигитоксигениннің</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... жапырағының анатомиялық құрылысы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>күлгін дигиталис</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>түкті дигиталис</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>меруертгүл</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жалынгүл</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>строфант</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ...... жапырағының  анатомиялық құрылысы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>мамыр меруертгүл</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>күлгін дигиталис</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>түкті дигиталис</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>ірі гүлді дигиталис</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>көктемгі жалынгүл</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... тамырының анатомиялық құрылысы берілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>мия</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>аралия</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>көкшегүл</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>рапонтикум</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>эхинопанакс</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... тамырының анатомиялық құрылысы берілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>көкшегүл</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>аралия</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>мия</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>рапонтикум</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>эхинопанакс</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ..... формуласы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>глицирризин қышқылының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>галактурон қышқылының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>олеанол қышқылының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>урсол қышқылының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>глицирретин қышқылының</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген стероидты сапонинге жататын қосылыс:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>[images/image_17.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_6.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_24.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_23.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_7.png]</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... формуласы берілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>диосгениннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>глицерритин қышқылының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>олеанол қышқылының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>амилопектиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>глюкурон қышқылының</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... формуласы берілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>панаксадиолдың</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>олеанол қышқылының</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>диосгениннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигоксиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>дигитоксиннің</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... формуласы берілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>гидрохинонның</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>кумариннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>пирагаллолдың</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>пирокатехиннің</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>арбутиннің</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте ... жапырағының анатомиялық құрылысы көрсетілген.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>шілтер жапырақты шәйқурай</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>егістік шегіргүл</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>жүректі сасықшөп</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>құс таран</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>бұрыш таран</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>Суретте көрсетілген пиранокумарин тобына жататын қосылыс:</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>[images/image_27.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_8.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_28.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_29.png]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>[images/image_30.png]</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+			</Tasks>
+		</Group>
+	</Groups>
+</MyTestX>
