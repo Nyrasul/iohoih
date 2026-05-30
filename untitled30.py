@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 import random
- 
+
 # Load Data
 @st.cache_data
 def load_data():
@@ -10,25 +10,27 @@ def load_data():
 
 questions = load_data()
 
-# --- SIDEBAR: Filter Controls ---
 st.sidebar.header("🎯 Test Configuration")
 
-# Get unique file sources
+# 1. Filter Setup
 sources = list(set([q.get('source', 'Unknown') for q in questions]))
 selected_sources = st.sidebar.multiselect("Select Files to Include:", sources, default=sources)
+filtered_questions = [q for q in questions if q.get('source', 'Unknown') in selected_sources]
 
-# Filter questions by selected files - ADDED .get() HERE
-filtered_questions = [q for q in questions if q.get('source', 'Unknown') in selected_sources] 
-
-# Select Number of Questions
+# 2. Slider Setup (Safe)
 max_q = len(filtered_questions)
-num_q = st.sidebar.slider("Number of Questions:", 5, max_q, min(20, max_q))
+if max_q > 0:
+    num_q = st.sidebar.slider("Number of Questions:", 1, max_q, min(20, max_q))
 
-if st.sidebar.button("🚀 Start New Test"):
-    st.session_state.quiz_data = random.sample(filtered_questions, num_q)
-    st.session_state.current_q = 0
-    st.session_state.user_answers = {}
-    st.rerun()
+    # --- START NEW TEST ---
+    if st.sidebar.button("🚀 Start New Test"):
+        st.session_state.quiz_data = random.sample(filtered_questions, num_q)
+        st.session_state.current_q = 0
+        st.session_state.user_answers = {}
+        st.session_state.failed_questions = [] # Reset failures
+        st.rerun()
+else:
+    st.sidebar.warning("No questions match your selection.")
 
 # --- MAIN APP ---
 if 'quiz_data' not in st.session_state:
@@ -57,7 +59,21 @@ else:
     # Submit
     if st.session_state.current_q == len(st.session_state.quiz_data) - 1:
         if st.button("Submit Test"):
-            # Calculate Score
-            score = sum(1 for i, q in enumerate(st.session_state.quiz_data) 
-                        if st.session_state.user_answers.get(i) == q['correct_answer'])
+            # Calculate Score & Track Failures
+            st.session_state.failed_questions = []
+            score = 0
+            for i, q in enumerate(st.session_state.quiz_data):
+                if st.session_state.user_answers.get(i) == q['correct_answer']:
+                    score += 1
+                else:
+                    st.session_state.failed_questions.append(q)
+            
             st.metric("Final Score", f"{score} / {len(st.session_state.quiz_data)}")
+            
+            # --- RETEST FAILED OPTION ---
+            if st.session_state.failed_questions:
+                if st.button("🔄 Retest Failed Questions"):
+                    st.session_state.quiz_data = st.session_state.failed_questions
+                    st.session_state.current_q = 0
+                    st.session_state.user_answers = {}
+                    st.rerun()
